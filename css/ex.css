@@ -1,0 +1,100 @@
+/*요기부분은 꾸미기 부분입니다~*/
+img{border:0;}      
+*{margin:0; padding:0}
+a{color:#3f3232;
+	text-decoration:none;}
+ul{list-style:none;}
+body{color:#3f3232;
+	font-size:100%;
+	line-height:26px;
+	font-family:"맑은고딕";}
+
+/*notice*/
+#section3 {
+    width: 100%;
+}
+
+.news-wrap {
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 200px;
+}
+.news-text {
+    width: 100%;
+    margin: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+
+	box-sizing: border-box;
+}
+
+.notice {
+    width: 65%;
+	margin: 0;
+    border-top: 3px solid #8d8d8d;
+}
+
+.news-image {
+    width: 25%;
+	display: block;
+	
+}
+.news-image img{
+	width: 100%;
+}
+/*제목부분*/
+.title {
+    overflow: hidden;
+    padding: 5px 20px;
+	border-bottom:1px solid #8d8d8d; ;
+}
+
+.title_in {
+    display: flex;
+    padding: 10px 0px 20px 0px;
+	float:left;
+}
+
+.date {
+    display: block;
+    width: 120px;
+    float: left;
+    text-align: left;
+    padding-right: 70px;
+    line-height: 20px;
+}
+
+.date>span {
+    font-size: 12px;
+}
+
+.text {
+	display: block;
+    padding-top: 10px;
+	
+}
+
+.plus {
+    float: right;
+    margin: 20px 10px 0px 0px;
+   
+}
+
+.text_info {
+    padding: 20px 50px;
+    background: #f7f0df;
+    display: none;;
+}
+
+/*+모양 회전관련 속성*/
+.turn .title img{transform:rotate(45deg);}
+.plus img{transition:transform 0.5s;}
+
+
+

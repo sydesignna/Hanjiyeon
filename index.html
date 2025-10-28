@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1400">
+    <title>한지연</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- CDN 방식으로 연결한 제이쿼리 CSS-->
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="header-wrap">
+            <h1><a href="./index.html"><img src="./images/logo/main.png" alt="logo"></a></h1>
+            <ul class="gnb">
+                <li><a href="./story.html">STORY</a></li>
+                <li><a href="./store.html">STORE</a></li>
+                <li><a href="./class.html">CLASS</a></li>
+                <li><a href="./contactus.html">CONTACT US</a></li>
+            </ul>
+            <ul class="icon">
+                <li><a href="#"><img src="./images/home/ico-user 1.png" alt="icon"></a></li>
+                <li><a href="#"><img src="./images/home/ico-cart 1.png " alt="icon"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="banner-wrap">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./images/home/banner1.jpg" alt="s1">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/home/banner2.jpg" alt="s2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/home/banner3.jpg" alt="s3">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/home/banner4.jpg" alt="s4">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/home/banner5.jpg" alt="s5">
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!-- section1_ STORY -->
+    <div id="section1">
+        <h2>STORY</h2>
+        <div class="sec1_wrap">
+            <div class="text_wrap">
+                <div class="text">
+                    <p>한지공예는 한지를 재료로 일상생활에 필요한 용구 혹은 공예품을 만드는 기술을 말하며
+                        그 유래는 정확하지는 않으나 우리나라에서 불교 전래와 함께 불경을 간행하고 역사를
+                        기록하는 서책을 간행하기 위해 종이를 사용하기 시작한 삼국시대로 보는 것이 일반적
+                        견해입니다.</p>
+                    <p>
+                        한지공예는 일차적으로 사용한 종이를 재활용하기 위한 발상에서 시작되었는데
+                        이는 현대의 친환경 이슈와 맞닿아 있다고 할 수 있습니다.</p>
+                </div>
+                <div class="search">
+                    <p><a href="#">자세히 보기</a></p>
+                </div>
+                <p class="memo">
+                    <img src="./images/home/story_icon.png" alt="memo">
+                </p>
+            </div>
+            <div class="image">
+                <img src="./images/home/history.png" alt="his">
+
+            </div>
+        </div>
+    </div>
+    <!--section2_ STORE   -->
+    <div id="section2">
+        <div class="store-wrap">
+            <h2>STORE</h2>
+            <ul class="works">
+                <li>
+                    <div class="works-image"><img src="./images/home/store1-1.png" alt="store"></div>
+                    <div class="cover">
+                        <div class="store-text">
+                            <h3><a href="./store.html">가 구</a></h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="works-image"><img src="./images/home/store2-2.png" alt="store"></div>
+                    <div class="cover">
+                        <div class="store-text">
+                            <h3><a href="./store.html">생활용품</a></h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="works-image"><img src="./images/home/store3-3.png" alt="store"></div>
+                    <div class="cover">
+                        <div class="store-text">
+                            <h3><a href="./store.html">악세사리</a></h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="works-image"><img src="./images/home/store4-4.png" alt="store"></div>
+                    <div class="cover">
+                        <div class="store-text">
+                            <h3><a href="./store.html">기타소품</a></h3>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <div class="promotion">
+
+        </div>
+    </div>
+    <!-- section3_CLASS -->
+    <div id="section3">
+        <h2>CLASS</h2>
+        <div id="wrap">
+            <!-------- oneday class --------->
+            <section class="tw">
+                <div class="bg tw_bg">
+                    <div class="contents tw_contents">
+                        <h2>원데이클래스
+                            <br><span>Oneday Class</span>
+                        </h2>
+                        <div class="tw_textAll">
+                            <h2>원데이클래스</h2>
+                            <h3>Oneday Class</h3>
+                            <p class="text">
+                                간단한 생활용품 제작을 통해 한지공예를
+                                <br>체험해볼 수 있습니다.
+                                <br>5세 이상의 어린이부터 가능하며
+                                <br>가족이나 친구, 연인들이 함께 즐기기에 적합합니다.
+                                <br>아이들의 창의력과 인내심 향상에 도움이 됩니다.
+                                <br>약 2~3시간 소요됩니다.
+                            </p>
+                            <p class="link"><a href="./class.html">자세히 보기</a><span></span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-------- Hobby Class --------->
+            <section class="ts">
+                <div class="bg ts_bg">
+                    <div class="contents ts_contents">
+                        <h2>취미반
+                            <br><span> Hobby Class</span>
+                        </h2>
+                        <div class="ts_textAll">
+                            <h2>취미반</h2>
+                            <h3>Hobby Class</h3>
+                            <p class="text">
+                                손을 활용한 작업은 두뇌의 발달 및 노화 방지에
+                                <br>도움이 되어 시니어들의 취미생활로 좋습니다.
+                                <br>취미반은 정기강좌와 그룹강좌, 1:1 강좌로 나뉩니다.
+                                <br>정기강좌는 분기별 일정한 시간에 진행되고
+                                <br>그 외 강좌는 진행일정과 기간, 강의료가
+                                <br>작품에 따라 변경됩니다.
+                            </p>
+                            <p class="link"><a href="./class.html">자세히 보기</a><span></span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--------  Certificate Course --------->
+            <section class="km">
+                <div class="bg km_bg">
+                    <div class="contents km_contents">
+                        <h2>자격증 과정
+                            <br><span>Certificate Course</span>
+                        </h2>
+                        <div class="km_textAll">
+                            <h2>자격증 과정</h2>
+                            <h3>Certificate Course</h3>
+                            <p class="text">
+                                부산광역시공예협동조합에서 발행하는
+                                <br>민간자격증입니다.
+                                <br>공예체험지도사, 전문지도사
+                                <br>2가지 과정으로 구성되어 있으며
+                                <br>각 과정별 요구되는 한지기법을 적용한
+                                <br>4가지 작품을 제작하여 그 과정을 기록한
+                                <br>포트폴리오를 작성 제출하고
+                                <br>심사를 통해 합격이 결정됩니다.
+                            </p>
+                            <p class="link"><a href="./class.html">자세히 보기</a><span></span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('.tw_contents > h2').mouseenter(function () {
+                //$('.tw_contents > h2').addClass('activeMove');
+                $('#wrap > section.tw, .tw_contents > div, .tw_bg, #logo, .tw_logo').addClass('active');
+                $('.contents > h2, #wrap > section.ts, #wrap > section.km, .ts_bg, .km_bg').addClass('activeSize');
+            });
+            $('#wrap > section.tw').mouseleave(function () {
+                //$('.tw_contents > h2').removeClass('activeMove');
+                $('#wrap > section.tw, .tw_contents > div, .tw_bg, #logo, .tw_logo').removeClass('active');
+                $('.contents > h2,  #wrap > section.ts,  #wrap > section.km, .ts_bg, .km_bg').removeClass('activeSize');
+
+            });
+
+            $('.ts_contents > h2').mouseenter(function () {
+                //$('.ts_contents > h2').addClass('activeMove');
+                $('#wrap > section.ts, .ts_contents > div, .ts_bg, #logo, .ts_logo').addClass('active');
+                $('.contents > h2, #wrap > section.tw, #wrap > section.km, .tw_bg, .km_bg').addClass('activeSize');
+            });
+            $('#wrap > section.ts').mouseleave(function () {
+                //$('.ts_contents > h2').removeClass('activeMove');
+                $('#wrap > section.ts, .ts_contents > div, .ts_bg, #logo, .ts_logo').removeClass('active');
+                $('.contents > h2, #wrap > section.tw, #wrap > section.km, .tw_bg, .km_bg').removeClass('activeSize');
+            });
+
+            $('.km_contents > h2').mouseenter(function () {
+                //$('.km_contents > h2').addClass('activeMove');
+                $('#wrap > section.km, .km_contents > div, .km_bg, #logo, .km_logo').addClass('active');
+                $('.contents > h2, #wrap > section.tw, #wrap > section.ts, .tw_bg, .ts_bg').addClass('activeSize');
+            });
+            $('#wrap > section.km').mouseleave(function () {
+                //$('.km_contents > h2').removeClass('activeMove');
+                $('#wrap > section.km, .km_contents > div, .km_bg, #logo, .km_logo').removeClass('active');
+                $('.contents > h2, #wrap > section.tw, #wrap > section.ts, .tw_bg, .ts_bg').removeClass('activeSize');
+            });
+        });
+    </script>
+    <!-- section4_contact us -->
+    <div id="section4  ">
+        <h2>CONTACT US</h2>
+        <ul class="address">
+            <li>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.383288412225!2d129.03986717576282!3d35.122107472772946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568eb7b6b8a25c5%3A0xddd66417eecc5031!2z67KU7JaR66CI7Jqw7Iqk!5e0!3m2!1sko!2skr!4v1760944405792!5m2!1sko!2skr" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </li>
+            <li>
+                <div class="add_text">
+                    <p class="add_icon"><img src="./images/home/ico-add.png" alt="icon"></p>
+                    <p class="add_title">공방 오시는 길</p>
+                    <p class="add_en"> Address</p>
+                    <p>부산 동구 초량중로 114 범양레우스 오피스텔
+                        <br>Beomyang Reus Officetel, 114, Choryangjung-ro, Dong-gu, Busan
+                    </p>
+                    <p>지하철 1호선 초량역 9번 출구 3분 거리
+                        <br>3 minutes on foot from Exit 9, Choryang Station (Subway Line 1)
+                    </p>
+                </div>
+            </li>
+        </ul>
+        <div id="slide">
+        <div class="slide_inner">
+            <ul>
+                <li><a href="#"><img src="./images/home/B-banner1.jpg" alt="슬라이드 이미지"></a></li>
+                <li><a href="#"><img src="./images/home/B-banner2.jpg" alt="슬라이드 이미지"></a></li>
+                <li><a href="#"><img src="./images/home/B-banner3.jpg" alt="슬라이드 이미지"></a></li>
+                <li><a href="#"><img src="./images/home/B-banner4.jpg" alt="슬라이드 이미지"></a></li>
+                <li><a href="#"><img src="./images/home/B-banner5.jpg" alt="슬라이드 이미지"></a></li>
+                <li><a href="#"><img src="./images/home/B-banner6.jpg" alt="슬라이드 이미지"></a></li>  
+            </ul>
+            <ul>
+                     <li><a href="#"><img src="./images/home/B-banner1.jpg" alt="슬라이드 이미지"></a></li>
+                <li><a href="#"><img src="./images/home/B-banner2.jpg" alt="슬라이드 이미지"></a></li>
+                <li><a href="#"><img src="./images/home/B-banner3.jpg" alt="슬라이드 이미지"></a></li>
+                <li><a href="#"><img src="./images/home/B-banner4.jpg" alt="슬라이드 이미지"></a></li>
+                <li><a href="#"><img src="./images/home/B-banner5.jpg" alt="슬라이드 이미지"></a></li>
+                <li><a href="#"><img src="./images/home/B-banner6.jpg" alt="슬라이드 이미지"></a></li> 
+            </ul>
+        </div>
+        <!--slid_inner E-->
+    </div>
+    <!--slide E-->
+    </div>
+
+
+  <div id="footer">
+    <div class="footer-wrap">
+        <div class="B_logo_wrap">
+        <div class="B_logo">
+            <h5><a href="./index.html"><img src="../images/logo/sub-footer.png" alt="sub-logo"></a></h5>
+            <p class="B-logo_title"><span>한지공예공방</span>   한지연</p>
+        </div>
+        <div class="contact">
+            <p>Tel    010-4445-9450
+<br>E-mail    sydesignna@gmail.com
+<br>Address   부산 동구 초량중로 114 범양레우스 오피스텔
+<br>Homepage    www.hanjiyeon.co.kr</p>
+        </div>
+    </div>
+    <div class="SNS">
+<p class="cus-title">고객문의</p>
+<p>1:1 문의  바로가기
+<br>운영시간  10:00~20:00(공휴일 제외)</p>
+<ul class="footer_SNS">
+    <li><a href="#"><img src="../images/logo/insta-footer.png" alt="SNS"></a></li>
+    <li><a href="#"><img src="../images/logo/fbook-footer.png" alt="SNS"></a></li>
+    <li><a href="#"><img src="../images/logo/ytube-footer.png" alt="SNS"></a></li>
+</ul>
+    </div>
+    <div class="extra">
+        <p>이용약관</p>
+        <p>개인정보취급방침</p>
+        <p>이용안내</p>
+        <p>COPYRIGHT@한지연 All right resesrved</p>
+    </div>
+    </div>
+</div>
+</body>
+
+</html>

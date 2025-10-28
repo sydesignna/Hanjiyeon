@@ -1,0 +1,584 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+body {
+    font-family: pretendard;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333;
+    min-width: 1400px;
+}
+
+#header {
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -660px;
+    z-index: 10;
+
+}
+
+.header-wrap {
+    width: 1320px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #dddddd93;
+    padding: 0px 10px;
+    box-sizing: border-box;
+
+}
+
+h1 img {
+    scale: 70%;
+    margin-top: -5px;
+
+}
+
+.gnb {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+
+.gnb li {
+    display: block;
+    font-size: 23px;
+    margin: 35px 40px;
+    box-sizing: border-box;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon li {
+    display: block;
+    margin: 30px 15px;
+    color: #ddd;
+}
+
+.gnb>li a:hover {
+    color: #bb1722;
+    font-size: 25px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.icon>li :hover {
+    scale: 120%;
+}
+
+
+#h-banner {
+    width: 100%;
+    height: 300px;
+    background: url(/images/SUB1/header.jpg) no-repeat center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#section1 {
+    width: 100%;
+}
+
+.history {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.square_title {
+    display: inline-block;
+    width: 250px;
+    height: 27px;
+    background-color: rgb(53, 36, 11);
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 25px;
+    margin-top: 120px;
+    margin-left: 535px;
+    margin-bottom: 100px;
+}
+
+.history1 {
+    width: 1320px;
+    margin: 0px auto;
+
+}
+
+.history-images {
+    width: 1320px;
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+
+.history-images li {
+    width: 610px;
+    height: 380px;
+    display: block;
+}
+
+.history-images img {
+    width: 100%;
+    height: 100%;
+}
+
+.history-images li:hover {
+    transform: scale(1.1);
+}
+
+.explanation {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.add_exp {
+    padding-top: 20px;
+}
+
+.add_exp>span {
+    font-weight: 700;
+}
+
+.refer {
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.m-banner {
+    width: 1320px;
+    height: 150px;
+    background: url(/images/SUB1/m-banner.jpg) no-repeat center;
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 130px;
+}
+
+/* middle-swiper */
+.card img {
+    width: 100%;
+}
+
+.card .swiper-slide h1 {
+    padding: 10px 0;
+}
+
+.card .swiper-slide p {
+    padding-bottom: 30px;
+}
+
+#news {
+    width: 1320px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.card {
+    padding-bottom: 50px;
+}
+
+.swiper-button-prev {
+    left: 0px;
+    right: auto;
+}
+
+.swiper-button-next {
+    right: 0px;
+    left: auto;
+}
+
+/*높이가 다른 슬라이드들을 세로 가운데가 맞게 해줌*/
+.card .swiper-wrapper {
+    align-items: center;
+}
+
+/*지금 현재 가운데 보이고 있는 슬라이드는 .swiper-slide-active 라는 클래스를 가지는데 이를 이용해 스타일을 꾸며줌. */
+.card .swiper-slide {
+    transform: scale(0.7);
+    opacity: 0.3;
+}
+
+.card .swiper-slide-prev,
+.card .swiper-slide-next {
+    transform: scale(0.85);
+    opacity: 0.5;
+}
+
+.card .swiper-slide-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.3s;
+}
+
+.card .swiper-slide .text {
+    display: none;
+}
+
+.card .swiper-slide-active .text {
+    display: block;
+}
+
+/*불릿모양. swiper-pagination-bullet-active 클래스가 현재 색상이 들어간 부분 나타냄*/
+.swiper-pagination-bullet-active {
+    width: 30px;
+    border-radius: 4px;
+    color: #ddd;
+}
+
+/* section2_전시 및 수상경력 */
+#section2 {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 150px 0px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 200px;
+}
+
+.exibition-wrap {
+    width: 100%;
+    margin: 100px auto;
+}
+
+.exibition-group {
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.exibition {
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.poster {
+    width: 35%;
+}
+
+.poster img {
+    width: 100%;
+}
+
+.poster_text {
+    width: 50%;
+    text-align: left;
+}
+
+.head {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.small_square_title {
+    display: inline-block;
+    width: 40px;
+    height: 25px;
+    background-color: rgb(53, 36, 11);
+    color: #fff;
+    text-align: center;
+    padding: 0px 2px;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+.award_square_title {
+    display: inline-block;
+    width: 130px;
+    height: 25px;
+    background-color: rgb(252, 116, 26);
+    color: #fff;
+    text-align: center;
+    padding: 0px 2px;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    transform: scaleX(-1);
+    animation: award 6s infinite linear;
+}
+
+@keyframes award {
+    0% {
+        transform: scaleX(0)
+    }
+
+    25% {
+        transform: scaleX(-1)
+    }
+
+    50% {
+        transform: scaleX(0)
+    }
+
+    75% {
+        transform: scaleX(1)
+    }
+
+    100% {
+        transform: scaleX(0)
+    }
+}
+
+/* section3_NEWS */
+#section3 {
+    width: 100%;
+}
+
+.news-wrap {
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 150px;
+}
+
+.news-text {
+    width: 100%;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.notice {
+    width: 65%;
+    margin: 0;
+    border-top: 3px solid #8d8d8d;
+}
+
+.news-image {
+    width: 25%;
+    display: block;
+
+}
+
+.news-image img {
+    width: 100%;
+}
+
+/*제목부분*/
+.title {
+    overflow: hidden;
+    padding: 5px 20px;
+    border-bottom: 1px solid #8d8d8d;
+    ;
+}
+
+.title_in {
+    display: flex;
+    padding: 10px 0px 20px 0px;
+    float: left;
+}
+
+.date {
+    display: block;
+    width: 120px;
+    float: left;
+    text-align: left;
+    padding-right: 70px;
+    line-height: 20px;
+}
+
+.date>span {
+    font-size: 12px;
+}
+
+.text {
+    display: block;
+    padding-top: 10px;
+
+}
+
+.plus {
+    float: right;
+    margin: 20px 10px 0px 0px;
+
+}
+
+.text_info {
+    padding: 20px 50px;
+    background: #f7f0df;
+    display: none;
+    ;
+}
+
+/*+모양 회전관련 속성*/
+.turn .title img {
+    transform: rotate(45deg);
+}
+
+.plus img {
+    transition: transform 0.5s;
+}
+
+
+
+
+
+/* 하단 계속 흘러가는 슬라이드 */
+#slide {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+/*width를 본인에 맞게 수정하여 사용하세요! --아래 3개*/
+.slide_inner {
+    width: 3200px;
+    /*ul길이의 두배!*/
+    display: flex;
+    animation: rotate 20s linear infinite;
+}
+
+.slide_inner ul {
+    display: flex;
+    width: 2000px;
+    /*li크기를 전부합한것보다 더 여유있게.*/
+    justify-content: space-around;
+}
+
+.slide_inner ul li {
+    width: 280px;
+}
+
+/*width를 본인에 맞게 수정하여 사용하세요!*/
+
+
+.slide_inner ul li img {
+    width: 100%;
+}
+
+.slide_inner:hover {
+    animation-play-state: paused;
+
+}
+
+/*슬라이드에 호버시 애니메이션이 멈추게 만듦*/
+
+#slide p {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: rotate(-50%);
+    cursor: pointer;
+}
+
+@keyframes rotate {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -1800px;
+        /*slide_inner의 ul길이와 동일하게 - 설정합니다!*/
+    }
+}
+
+/* footer */
+#footer{
+	background-color:  #d8cdbf; 
+	height: 180px;
+	color: oklab(18.199% 0.03901 0.03406 / 0.89);
+	margin-top: 150px;
+	padding: 50px 0px;
+}
+.footer-wrap{
+	width: 1320px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+justify-content: space-between;
+font-size: 14px;
+}
+
+.B_logo{
+	height: 70px;
+	display: flex;
+    padding-bottom: 10px;
+  
+
+}
+h5{
+	transform: scale(0.9);
+      margin-left: -5px;
+      margin-top: 3px;
+}
+.B-logo_title{
+	font-size: 20px;
+	font-weight: 700;
+	padding-top: 30px;
+}
+.B-logo_title>span{
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.cus-title{
+	font-size: 16px;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+
+.footer_SNS{
+    width: 110px;
+	display: flex;
+    float: left;
+     margin-top: 10px;
+}
+
+.footer_SNS li{
+	display: block;
+}
+.footer_SNS li img{
+	width: 100%;
+}
+
+ .footer_SNS li:nth-child(2){ 
+    padding: 0px 10px;
+}
+
+.extra{
+	text-align: right;
+}
