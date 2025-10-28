@@ -22,69 +22,68 @@ body {
 }
 
 #header {
-    height: 50px;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    margin-left: -660px;
-    z-index: 10;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -660px;
+	z-index: 10;
 
 }
 
 .header-wrap {
-    width: 1320px;
-    height: 100px;
-    margin: 0 auto;
-    background-color: #fff;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid #dddddd93;
-    padding: 0px 10px;
-    box-sizing: border-box;
+	width: 1320px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #dddddd93;
+	padding: 0px 10px;
 
 }
 
 h1 img {
-    scale: 70%;
-    margin-top: -5px;
+	scale: 70%;
+	margin-top: -5px;
 
 }
 
 .gnb {
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
 }
 
 .gnb li {
-    display: block;
-    font-size: 23px;
-    margin: 35px 40px;
-    box-sizing: border-box;
+	width: 200px;
 }
 
 .icon {
-    display: flex;
+	display: flex;
 }
 
 .icon li {
-    display: block;
-    margin: 30px 15px;
-    color: #ddd;
+	display: block;
+	margin: 30px 15px;
+	color: #ddd;
 }
-
+.gnb>li a{
+	display: block;
+	font-size: 23px;
+	margin: 35px 0px;
+	transition: all 0.1s;
+}
 .gnb>li a:hover {
-    color: #bb1722;
-    font-size: 25px;
-    font-weight: bold;
-    box-sizing: border-box;
+	color: #bb1722;
+	font-size: 24px;
+	font-weight: bold;
+	transition: all 0.1s;
 }
 
 .icon>li :hover {
-    scale: 120%;
+	scale: 120%;
 }
-
 
 #h-banner {
     width: 100%;
