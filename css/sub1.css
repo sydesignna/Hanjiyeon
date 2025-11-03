@@ -44,7 +44,7 @@ body {
 }
 
 h1 img {
-	scale: 70%;
+	scale: 65%;
 	margin-top: -5px;
 
 }
@@ -106,7 +106,7 @@ h1 img {
     display: inline-block;
     width: 250px;
     height: 27px;
-    background-color: rgb(53, 36, 11);
+    background-color: rgb(75, 31, 10);
     color: #fff;
     border-radius: 10px;
     text-align: center;
@@ -120,7 +120,6 @@ h1 img {
 .history1 {
     width: 1320px;
     margin: 0px auto;
-
 }
 
 .history-images {
@@ -129,7 +128,6 @@ h1 img {
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-
 }
 
 .history-images li {
@@ -149,9 +147,18 @@ h1 img {
 
 .explanation {
     width: 100%;
-    margin: 0 auto;
-    padding: 50px 0px;
+    margin: 50px auto;
     text-align: center;
+}
+
+.history1> .explanation {
+    padding-bottom: 40px;
+}
+.history2> .explanation {
+    padding-bottom: 120px;
+}
+.history2> .explanation {
+    padding-bottom: 20px;
 }
 
 h4 {
@@ -161,7 +168,7 @@ h4 {
 }
 
 .add_exp {
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 .add_exp>span {
@@ -257,13 +264,14 @@ h4 {
 #section2 {
     width: 1320px;
     margin: 0 auto;
-    padding: 150px 0px;
+    
     text-align: center;
 }
 
 h3 {
     font-size: 40px;
     font-weight: bold;
+    margin-top: 150px;
     margin-bottom: 200px;
 }
 
@@ -308,7 +316,7 @@ h3 {
     display: inline-block;
     width: 40px;
     height: 25px;
-    background-color: rgb(53, 36, 11);
+    background-color: rgb(75, 31, 10);
     color: #fff;
     text-align: center;
     padding: 0px 2px;
@@ -330,7 +338,7 @@ h3 {
     margin-top: 30px;
     margin-bottom: 20px;
     transform: scaleX(-1);
-    animation: award 6s infinite linear;
+    animation: award 8s infinite linear;
 }
 
 @keyframes award {
@@ -580,4 +588,5 @@ h5{
 
 .extra{
 	text-align: right;
+    line-height: 40px;
 }

@@ -1,0 +1,487 @@
+* {
+	padding: 0;
+	margin: 0;
+
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	vertical-align: middle;
+}
+
+body {
+	font-family: pretendard;
+	font-size: 16px;
+	line-height: 26px;
+	color: #333;
+	min-width: 1400px;
+}
+
+/* header */
+#header {
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -660px;
+	z-index: 10;
+
+}
+
+.header-wrap {
+	width: 1320px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #dddddd93;
+	padding: 0px 10px;
+
+}
+
+h1 img {
+	scale: 65%;
+	margin-top: -5px;
+
+}
+
+.gnb {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.gnb li {
+	width: 200px;
+}
+
+.icon {
+	display: flex;
+}
+
+.icon li {
+	display: block;
+	margin: 30px 15px;
+	color: #ddd;
+}
+
+.gnb>li a {
+	display: block;
+	font-size: 23px;
+	margin: 35px 0px;
+	transition: all 0.1s;
+}
+
+.gnb>li a:hover {
+	color: #bb1722;
+	font-size: 24px;
+	font-weight: bold;
+	transition: all 0.1s;
+}
+
+.icon>li :hover {
+	scale: 120%;
+}
+
+#h-banner {
+	width: 100%;
+	height: 300px;
+	background: url(../images/SUB3/header.jpg) no-repeat center;
+	text-align: center;
+	margin-top: 102px;
+}
+
+#container-wrap {
+	width: 100%;
+}
+
+.container {
+	width: 1320px;
+	margin: 0 auto;
+}
+
+/* 원데이클래스 */
+.square_title {
+	display: inline-block;
+	width: 250px;
+	height: 27px;
+	background-color: rgb(75, 31, 10);
+	color: #fff;
+	border-radius: 10px;
+	text-align: center;
+	padding: 15px 10px;
+	font-size: 25px;
+	margin-top: 120px;
+	margin-left: 535px;
+	margin-bottom: 100px;
+}
+
+.exibition-wrap {
+	width: 100%;
+	margin: 0px auto;
+}
+
+.exibition-group {
+	width: 100%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 50px;
+}
+
+.exibition {
+	width: 48%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.poster {
+	width: 35%;
+}
+
+.poster img {
+	width: 100%;
+}
+
+.poster_text {
+	width: 50%;
+	text-align: left;
+	line-height: 10px;
+}
+
+.head {
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.small_square_title {
+	display: inline-block;
+	width: 58px;
+	height: 24px;
+	background-color: rgb(75, 31, 10);
+	color: #fff;
+	text-align: center;
+	padding-top: 7px;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+
+}
+
+.poster:hover {
+	transform: scale(1.3);
+}
+
+/* 취미반 호버효과 */
+.gallery {
+	max-width: 1320px;
+	width: 100%;
+	margin: 30px auto;
+	padding-bottom: 50px;
+}
+
+.gallery ul li {
+	float: left;
+	vertical-align: top;
+	width: 33.3%;
+	position: relative;
+	padding-bottom: 30px;
+}
+
+.gallery ul li a {
+	display: block;
+	margin: 5px;
+}
+
+.screen {
+	position: relative;
+	overflow: hidden;
+}
+
+.screen img {
+	width: 100%;
+}
+
+.cover {
+	width: 100%;
+	height: 100%;
+}
+
+.top {
+	position: absolute;
+	bottom: 150%;
+	left: 30px;
+	z-index: 2;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	transition: all 1s;
+
+}
+
+.bottom {
+	position: absolute;
+	top: 150%;
+	left: 30px;
+	z-index: 2;
+	font-weight: bold;
+	color: #fff;
+	transition: all 1s;
+
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px;
+	color: #333;
+}
+
+/*hover*/
+ul li a:hover .top {
+	bottom: 58%;
+}
+
+ul li a:hover .bottom {
+	top: 50%;
+}
+
+ul li a:hover .cover {
+	background-color: rgba(75, 31, 10);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.5;
+	transition: all 1s;
+}
+
+/* certification */
+.certi_wrap {
+	width: 100%;
+	margin: 50px auto;
+
+}
+
+.course {
+	width: 100%;
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.picture {
+	width: 50%;
+}
+
+.poster img {
+	width: 100%;
+}
+
+.course_text {
+	width: 50%;
+	text-align: left;
+	line-height: 10px;
+	padding: 50px 50px 0px 50px;
+	background: url(../images/SUB3/bg.jpg);
+	animation: bg 10s infinite linear;
+}
+
+.head1 {
+	font-size: 23px;
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+
+.course_ex>p {
+	padding-bottom: 40px;
+	line-height: 28px;
+}
+
+.course_ex>p>span {
+	color: rgb(75, 31, 10);
+	font-size: larger;
+	font-weight: bold;
+}
+
+
+@keyframes bg {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 100;
+	}
+
+	100% {
+		opacity: 100;
+	}
+}
+
+/* 클래스 갤러리 */
+.gallery_cl {
+	width: 1320px;
+	margin: 0px auto;
+}
+
+.h5 {
+	font-size: 40px;
+	font-weight: bold;
+	margin: 200px 0px 150px 0px;
+	text-align: center;
+}
+
+.class_gallery {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 40px;
+
+}
+
+.class_gallery li  a{
+	display: block;
+	width: 100%;
+}
+.class_gallery li img{
+	width: 100%;
+}
+h6 {
+	font-size: 19px;
+	font-weight: 400;
+	text-align: center;
+
+}
+
+/* gallery img 호버 시  액자식 꾸미기 */
+
+.photo {
+	position: relative;
+	display: inline-block;
+}
+
+.photo img {
+	width: 100%;
+	display: block;
+}
+
+.photo::before,
+.photo::after {
+	content: ' ';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 95%;
+	height: 95%;
+	transform: translate(-50%, -50%);
+	transition: all 0.8s;
+}
+
+.photo::before {
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	width: 0;
+}
+
+.photo::after {
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+	height: 0;
+}
+
+.photo:hover::before {
+	width: 95%;
+}
+
+.photo:hover::after {
+	height: 95%;
+}
+
+/* footer */
+#footer {
+	width: 100%;
+	background-color: #d8cdbf;
+	height: 180px;
+	color: oklab(18.199% 0.03901 0.03406 / 0.89);
+	margin-top: 200px;
+	padding: 50px 0px;
+}
+
+.footer-wrap {
+	width: 1320px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+}
+
+.B_logo {
+	height: 70px;
+	display: flex;
+	padding-bottom: 10px;
+
+
+}
+
+h5 {
+	transform: scale(0.9);
+	margin-left: -5px;
+	margin-top: 3px;
+}
+
+.B-logo_title {
+	font-size: 20px;
+	font-weight: 700;
+	padding-top: 30px;
+}
+
+.B-logo_title>span {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.cus-title {
+	font-size: 16px;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+
+.footer_SNS {
+	width: 110px;
+	display: flex;
+	float: left;
+	margin-top: 10px;
+}
+
+.footer_SNS li {
+	display: block;
+}
+
+.footer_SNS li img {
+	width: 100%;
+}
+
+.footer_SNS li:nth-child(2) {
+	padding: 0px 10px;
+}
+
+.extra {
+	text-align: right;
+	line-height: 40px;
+}

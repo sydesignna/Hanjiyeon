@@ -43,7 +43,7 @@ body {
 }
 
 h1 img {
-	scale: 70%;
+	scale: 65%;
 	margin-top: -5px;
 
 }
@@ -107,17 +107,17 @@ h1 img {
 #banner-wrap .swiper-slide img {
 	display: block;
 	width: 100%;
-	height: 100%;
+	height: 80%;
 	object-fit: cover;
 }
 
 #banner-wrap .swiper-button-prev,
 #banner-wrap .swiper-button-next {
-	color: rgb(65, 46, 11);
+	color: rgb(75, 31, 10);
 }
 
 .swiper-pagination-bullet {
-	background-color: rgb(65, 46, 11);
+	background-color: rgb(75, 31, 10);
 }
 
 /* section1_ history */
@@ -128,7 +128,7 @@ h1 img {
 
 h2 {
 	text-align: center;
-	margin-top: 150px;
+	margin-top: 200px;
 	margin-bottom: 120px;
 	font-size: 35px;
 }
@@ -338,7 +338,7 @@ h3 {
 	padding: 0 10%;
 	box-sizing: border-box;
 	position: relative;
-	margin-top: -30px;
+	margin-top: -60px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -359,13 +359,14 @@ h3 {
 	position: absolute;
 	left: 0;
 	top: 50%;
-	margin-top: -80px;
+	margin-top: -50px;
 	z-index: 5;
 }
 
 .contents>h2>span {
 	font-size: 25px;
 	font-weight: 500;
+
 }
 
 @media screen and (max-width: 1250px) {
@@ -742,9 +743,7 @@ p {
 justify-content: space-between;
 font-size: 14px;
 }
-.B_logo_wrap{
 
-}
 .B_logo{
 	height: 70px;
 	display: flex;
