@@ -7,6 +7,8 @@
     <title>한지연 </title>
     <link href="../css/sub3.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/logo/pavicon(c).png">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- aos js CDN으로 붙여넣기 -->
 </head>
 
 <body>
@@ -28,7 +30,7 @@
     <div id="container_wrap">
         <div class="container">
             <!-- 원데이클래스 -->
-            <div class="square_title">원데이 클래스 </div>
+            <div class="square_title" data-aos="fade-down" data-aos-duration="2000">원데이 클래스 </div>
             <div class="exibition-wrap">
                 <div class="exibition-group">
                     <div class="exibition">
@@ -94,7 +96,7 @@
             </div>
 
             <!-- 취미반 -->
-            <div class="square_title">취 미 반 </div>
+            <div class="square_title" data-aos="fade-down" data-aos-duration="2000">취 미 반 </div>
             <div class="gallery">
                 <ul>
                     <li><a href="#">
@@ -149,11 +151,11 @@
             </div>
 
             <!-- 자격증 과정 -->
-            <div class="square_title">자격증 과정 </div>
+            <div class="square_title" data-aos="fade-down" data-aos-duration="2000">자격증 과정 </div>
             <div class="certi_wrap">
                 <div class="course">
                     <div class="picture"><img src="../images/SUB3/sec3-1.jpg" alt="picture"></div>
-                    <div class="course_text">
+                    <div class="course_text1" data-aos="fade-left" data-aos-duration="2000">
                         <div>
                             <p class="head1">공예체험지도사 과정</p>
                         </div>
@@ -171,7 +173,7 @@
                     </div>
                 </div>
                 <div class="course">
-                    <div class="course_text">
+                    <div class="course_text2" data-aos="fade-right" data-aos-duration="2000">
                         <div>
                             <p class="head1">전문지도사 과정</p>
                         </div>
@@ -196,7 +198,7 @@
 
             <!-- 갤러리 -->
             <div class="gallery_cl">
-                <div class="h5">CLASS GALLERY</div>
+                <div class="h5" data-aos="fade-down" data-aos-duration="2000">CLASS GALLERY</div>
                 <div class="class_gallery_wrap">
                     <ul class="class_gallery">
                         <li><a href="#">
@@ -282,12 +284,17 @@
                 </ul>
             </div>
             <div class="extra">
-                <p>이용약관</p>
-                <p>개인정보취급방침</p>
-                <p>이용안내</p>
+                <p><a href="#">이용약관</a></p>
+                <p><a href="#">개인정보취급방침</a></p>
+                <p><a href="#">이용안내</a></p>
                 <p>COPYRIGHT@한지연 All right resesrved</p>
             </div>
         </div>
     </div>
 
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- aos js CDN방식으로 들고온 제이쿼리 -->
 </body>

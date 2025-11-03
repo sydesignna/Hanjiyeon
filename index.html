@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- CDN 방식으로 연결한 제이쿼리 CSS-->
-     <link rel="icon" type="image/png" sizes="32x32" href="./images/logo/pavicon(c).png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/logo/pavicon(c).png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- aos js CDN으로 붙여넣기 -->
 
 </head>
 
@@ -20,7 +22,7 @@
                 <li><a href="./sub/sub1.html">STORY</a></li>
                 <li><a href="./sub/sub2.html">STORE</a></li>
                 <li><a href="./sub/sub3.html">CLASS</a></li>
-    
+
             </ul>
             <ul class="icon">
                 <li><a href="#"><img src="./images/home/ico-user 1.png" alt="icon"></a></li>
@@ -50,7 +52,7 @@
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
+           
         </div>
     </div>
 
@@ -81,7 +83,7 @@
 
     <!-- section1_ STORY -->
     <div id="section1">
-        <h2>STORY</h2>
+        <h2 data-aos="fade-down" data-aos-duration="2000">STORY</h2>
         <div class="sec1_wrap">
             <div class="text_wrap">
                 <div class="text">
@@ -109,7 +111,7 @@
     <!--section2_ STORE   -->
     <div id="section2">
         <div class="store-wrap">
-            <h2>STORE</h2>
+            <h2 data-aos="fade-down" data-aos-duration="2000">STORE</h2>
             <ul class="works">
                 <li>
                     <div class="works-image"><img src="./images/home/store1-1.png" alt="store"></div>
@@ -152,7 +154,7 @@
     </div>
     <!-- section3_CLASS -->
     <div id="section3">
-        <h2>CLASS</h2>
+        <h2 data-aos="fade-down" data-aos-duration="2000">CLASS</h2>
         <div id="wrap">
             <!-------- oneday class --------->
             <section class="tw">
@@ -214,7 +216,7 @@
                             <h3>Certificate Course</h3>
                             <p class="text">
                                 부산광역시공예협동조합에서 발행하는 민간자격증입니다.
-                                <br>공예체험지도사, 전문지도사 2가지 과정으로 
+                                <br>공예체험지도사, 전문지도사 2가지 과정으로
                                 <br>구성되어 있으며 각 과정별 요구되는 한지기법을 적용한
                                 <br>4가지 작품을 제작하여 그 과정을 기록한 포트폴리오를
                                 <br> 작성 제출하고 심사를 통해 합격이 결정됩니다.
@@ -270,10 +272,13 @@
     </script>
     <!-- section4_contact us -->
     <div id="section4  ">
-        <h2>CONTACT US</h2>
+        <h2 data-aos="fade-down" data-aos-duration="2000">CONTACT US</h2>
         <ul class="address">
             <li>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.383288412225!2d129.03986717576282!3d35.122107472772946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568eb7b6b8a25c5%3A0xddd66417eecc5031!2z67KU7JaR66CI7Jqw7Iqk!5e0!3m2!1sko!2skr!4v1760944405792!5m2!1sko!2skr" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.383288412225!2d129.03986717576282!3d35.122107472772946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568eb7b6b8a25c5%3A0xddd66417eecc5031!2z67KU7JaR66CI7Jqw7Iqk!5e0!3m2!1sko!2skr!4v1760944405792!5m2!1sko!2skr"
+                    width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </li>
             <li>
                 <div class="add_text">
@@ -290,62 +295,69 @@
             </li>
         </ul>
         <div id="slide">
-        <div class="slide_inner">
-            <ul>
-                <li><a href="#"><img src="./images/home/B-banner1.jpg" alt="슬라이드 이미지"></a></li>
-                <li><a href="#"><img src="./images/home/B-banner2.jpg" alt="슬라이드 이미지"></a></li>
-                <li><a href="#"><img src="./images/home/B-banner3.jpg" alt="슬라이드 이미지"></a></li>
-                <li><a href="#"><img src="./images/home/B-banner4.jpg" alt="슬라이드 이미지"></a></li>
-                <li><a href="#"><img src="./images/home/B-banner5.jpg" alt="슬라이드 이미지"></a></li>
-                <li><a href="#"><img src="./images/home/B-banner6.jpg" alt="슬라이드 이미지"></a></li>  
-            </ul>
-            <ul>
-                     <li><a href="#"><img src="./images/home/B-banner1.jpg" alt="슬라이드 이미지"></a></li>
-                <li><a href="#"><img src="./images/home/B-banner2.jpg" alt="슬라이드 이미지"></a></li>
-                <li><a href="#"><img src="./images/home/B-banner3.jpg" alt="슬라이드 이미지"></a></li>
-                <li><a href="#"><img src="./images/home/B-banner4.jpg" alt="슬라이드 이미지"></a></li>
-                <li><a href="#"><img src="./images/home/B-banner5.jpg" alt="슬라이드 이미지"></a></li>
-                <li><a href="#"><img src="./images/home/B-banner6.jpg" alt="슬라이드 이미지"></a></li> 
-            </ul>
+            <div class="slide_inner">
+                <ul>
+                    <li><a href="#"><img src="./images/home/B-banner1.jpg" alt="슬라이드 이미지"></a></li>
+                    <li><a href="#"><img src="./images/home/B-banner2.jpg" alt="슬라이드 이미지"></a></li>
+                    <li><a href="#"><img src="./images/home/B-banner3.jpg" alt="슬라이드 이미지"></a></li>
+                    <li><a href="#"><img src="./images/home/B-banner4.jpg" alt="슬라이드 이미지"></a></li>
+                    <li><a href="#"><img src="./images/home/B-banner5.jpg" alt="슬라이드 이미지"></a></li>
+                    <li><a href="#"><img src="./images/home/B-banner6.jpg" alt="슬라이드 이미지"></a></li>
+                </ul>
+                <ul>
+                    <li><a href="#"><img src="./images/home/B-banner1.jpg" alt="슬라이드 이미지"></a></li>
+                    <li><a href="#"><img src="./images/home/B-banner2.jpg" alt="슬라이드 이미지"></a></li>
+                    <li><a href="#"><img src="./images/home/B-banner3.jpg" alt="슬라이드 이미지"></a></li>
+                    <li><a href="#"><img src="./images/home/B-banner4.jpg" alt="슬라이드 이미지"></a></li>
+                    <li><a href="#"><img src="./images/home/B-banner5.jpg" alt="슬라이드 이미지"></a></li>
+                    <li><a href="#"><img src="./images/home/B-banner6.jpg" alt="슬라이드 이미지"></a></li>
+                </ul>
+            </div>
+            <!--slid_inner E-->
         </div>
-        <!--slid_inner E-->
-    </div>
-    <!--slide E-->
+        <!--slide E-->
     </div>
 
 
-  <div id="footer">
-    <div class="footer-wrap">
-        <div class="B_logo_wrap">
-        <div class="B_logo">
-            <h5><a href="./index.html"><img src="./images/logo/sub-footer.png" alt="sub-logo"></a></h5>
-            <p class="B-logo_title"><span>한지공예공방</span>   한지연</p>
+    <div id="footer">
+        <div class="footer-wrap">
+            <div class="B_logo_wrap">
+                <div class="B_logo">
+                    <h5><a href="./index.html"><img src="./images/logo/sub-footer.png" alt="sub-logo"></a></h5>
+                    <p class="B-logo_title"><span>한지공예공방</span> 한지연</p>
+                </div>
+                <div class="contact">
+                    <p>Tel 010-4445-9450
+                        <br>E-mail sydesignna@gmail.com
+                        <br>Address 부산 동구 초량중로 114 범양레우스 오피스텔
+                        <br>Homepage www.hanjiyeon.co.kr
+                    </p>
+                </div>
+            </div>
+            <div class="SNS">
+                <p class="cus-title">고객문의</p>
+                <p>1:1 문의 바로가기
+                    <br>운영시간 10:00~20:00(공휴일 제외)
+                </p>
+                <ul class="footer_SNS">
+                    <li><a href="#"><img src="./images/logo/insta-footer.png" alt="SNS"></a></li>
+                    <li><a href="#"><img src="./images/logo/fbook-footer.png" alt="SNS"></a></li>
+                    <li><a href="#"><img src="./images/logo/ytube-footer.png" alt="SNS"></a></li>
+                </ul>
+            </div>
+            <div class="extra">
+                <p><a href="#">이용약관</a></p>
+                <p><a href="#">개인정보취급방침</a></p>
+                <p><a href="#">이용안내</a></p>
+                <p>COPYRIGHT@한지연 All right resesrved</p>
+            </div>
         </div>
-        <div class="contact">
-            <p>Tel    010-4445-9450
-<br>E-mail    sydesignna@gmail.com
-<br>Address   부산 동구 초량중로 114 범양레우스 오피스텔
-<br>Homepage    www.hanjiyeon.co.kr</p>
-        </div>
     </div>
-    <div class="SNS">
-<p class="cus-title">고객문의</p>
-<p>1:1 문의  바로가기
-<br>운영시간  10:00~20:00(공휴일 제외)</p>
-<ul class="footer_SNS">
-    <li><a href="#"><img src="./images/logo/insta-footer.png" alt="SNS"></a></li>
-    <li><a href="#"><img src="./images/logo/fbook-footer.png" alt="SNS"></a></li>
-    <li><a href="#"><img src="./images/logo/ytube-footer.png" alt="SNS"></a></li>
-</ul>
-    </div>
-    <div class="extra">
-        <p>이용약관</p>
-        <p>개인정보취급방침</p>
-        <p>이용안내</p>
-        <p>COPYRIGHT@한지연 All right resesrved</p>
-    </div>
-    </div>
-</div>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- aos js CDN방식으로 들고온 제이쿼리 -->
 </body>
 
 </html>

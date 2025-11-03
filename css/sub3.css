@@ -291,7 +291,7 @@ ul li a:hover .cover {
 	width: 100%;
 }
 
-.course_text {
+.course_text1, .course_text2 {
 	width: 50%;
 	text-align: left;
 	line-height: 10px;

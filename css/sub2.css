@@ -101,6 +101,7 @@ h1 img {
 }
 #contents-wrap{
 	width: 100%;
+	padding-bottom: 50px;
 }
 /* 카테고리별 */
 #furniture {
