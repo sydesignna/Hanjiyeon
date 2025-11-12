@@ -37,8 +37,9 @@ body {
 	background-color: #fff;
 	display: flex;
 	justify-content: space-between;
-	border: 1px solid #dddddd93;
+	/* border:  1px  solid #b1b0b093; */
 	padding: 0px 10px;
+
 
 }
 

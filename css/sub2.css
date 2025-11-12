@@ -43,7 +43,7 @@ body {
 	background-color: #fff;
 	display: flex;
 	justify-content: space-between;
-	border: 1px solid #dddddd93;
+	/* border: 1px solid #dddddd93; */
 	padding: 0px 10px;
 
 }
