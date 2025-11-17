@@ -39,8 +39,6 @@ body {
 	justify-content: space-between;
 	/* border:  1px  solid #b1b0b093; */
 	padding: 0px 10px;
-
-
 }
 
 h1 img {
@@ -50,9 +48,11 @@ h1 img {
 }
 
 .gnb {
+	
 	display: flex;
 	justify-content: space-between;
 	text-align: center;
+
 }
 
 .gnb li {
@@ -788,4 +788,25 @@ h5{
 
 .extra{
 	text-align: right;
+}
+
+/* top button */
+.top{
+	width: 70px;
+	height: 70px;
+	position: fixed;
+	bottom: 150px;
+	right: 150px;
+	z-index: 50;
+	transition: all 0.6s;
+	display: none;
+}
+.top:hover{
+	transform: translateY(-10px);
+	transition: all 0.6s;
+
+}
+
+.top img {
+	width: 100%;
 }

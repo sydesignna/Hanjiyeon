@@ -460,9 +460,6 @@ h3 {
 }
 
 
-
-
-
 /* 하단 계속 흘러가는 슬라이드 */
 #slide {
     width: 100%;
@@ -589,4 +586,25 @@ h5{
 .extra{
 	text-align: right;
     line-height: 40px;
+}
+
+/* top button */
+.top{
+	width: 70px;
+	height: 70px;
+	position: fixed;
+	bottom: 150px;
+	right: 150px;
+	z-index: 50;
+	transition: all 0.6s;
+    display: none;
+}
+.top:hover{
+	transform: translateY(-10px);
+	transition: all 0.6s;
+
+}
+
+.top img {
+	width: 100%;
 }
